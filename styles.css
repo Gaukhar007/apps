@@ -1,0 +1,86 @@
+body{
+    background-color: #9e4fe8;
+}
+.body{
+    background-color: #ffffff;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20%;
+    border-radius: 15px;
+   
+}
+
+/* App grid section */
+.app-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    
+
+   
+}
+
+/* Individual app icon container */
+.app-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+   
+}
+
+.app-icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* Hover effect for app icons */
+.app-icon:hover {
+    transform: scale(1.1);
+}
+
+/* Add button */
+.add-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #45a049;
+}
+
+.add-button span {
+    font-size: 18px;
+}
+
+/* Styling for the entire section */
+.add-more-apps {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #4f6dfa;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.add-more-apps:hover {
+    background-color: #3e5fda;
+
+}
